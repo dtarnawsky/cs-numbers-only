@@ -1,0 +1,9 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "input-numbers-only",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"server": {
+		"url": "http://192.168.0.108:8103"
+	}
+}
