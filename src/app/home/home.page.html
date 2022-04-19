@@ -10,21 +10,18 @@
       <ion-title size="large">Filter Numbers</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  <p style="width:100%; text-align: center">
+    The value is "{{ionInputValue}}"
+  </p>
+<div style="height:60vh"></div>
   <ion-list>
     <ion-item>
-      <ion-label position="floating">Enter a Number</ion-label>
+      <ion-label position="stacked">Enter a Number</ion-label>
       <ion-input [(ngModel)]="ionInputValue" inputmode="numeric" appNumbersOnly></ion-input>
     </ion-item>    
     <ion-item>
-      <ion-label>
-        Ionic Input Value: {{ionInputValue}}
-      </ion-label>
+
     </ion-item>
-    <ion-item>
-      <ion-label>
-        Input Value: {{inputValue}}
-      </ion-label>
-    </ion-item>
-  </ion-list>
+  </ion-list>  
+
 </ion-content>
